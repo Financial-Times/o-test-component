@@ -1,3 +1,3 @@
 'use strict';
 
-what is this?
+console.log("what is this?");
