@@ -7,5 +7,6 @@
 	],
 	"dependencies": {
 		"nothere": "404-package-does-not-exist"
-	}
+	},
+	"supportStatus": "deprecated"
 }
