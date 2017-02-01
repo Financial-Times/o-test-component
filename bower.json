@@ -4,5 +4,7 @@
 		"main.js",
 		"main.scss"
 	],
-	"dependencies": {}
+	"dependencies": {
+		"nothere": "./404-package-doesnt-exist/"
+	}
 }
