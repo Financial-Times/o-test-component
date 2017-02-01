@@ -4,5 +4,8 @@
 			"name": "main",
 			"template": "demos/src/main.mustache"
 		}
-	]
+	],
+	"dependencies": {
+		"nothere": "404-package-does-not-exist"
+	}
 }
