@@ -1,6 +1,7 @@
 {
 	"name": "test-component",
 	"main": [
-		"this-file-does-not-exist.js"
+		"main.js",
+		"main.scss"
 	]
 }
