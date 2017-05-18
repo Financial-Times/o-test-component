@@ -1,5 +1,4 @@
 {
 	"name": "test-component",
-	"main": ["*.scss"],
-	"ignore": ["*.js"]
+	"main": ["*.scss"]
 }
