@@ -1,5 +1,11 @@
 'use strict';
 
-new Set(Array.from([1,2,3]));
+module.exports = class Test {
+  constructor(initialValue) {
+    this.value = initialValue;
+  }
 
-console.log("what is this?");
+  add(x) {
+    this.value = this.value + x;
+  }
+}
