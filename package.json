@@ -3,9 +3,6 @@
   "version": "1.0.26",
   "description": "o-test-component",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Financial-Times/o-test-component.git"
