@@ -5,5 +5,9 @@
 			"template": "demos/src/main.mustache"
 		}
 	],
-	"supportStatus": "deprecated"
+	"supportStatus": "deprecated",
+	"origamiType": "module",
+	"description": "A component used to test origami tools and services",
+	"origamiVersion": 1,
+	"support": "origami.support@ft.com"
 }
