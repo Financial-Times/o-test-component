@@ -9,5 +9,9 @@
 	"origamiType": "module",
 	"description": "A component used to test origami tools and services",
 	"origamiVersion": 1,
-	"support": "origami.support@ft.com"
+	"support": "origami.support@ft.com",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/ft-origami"
+	}
 }
