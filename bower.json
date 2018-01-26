@@ -1,4 +1,4 @@
 {
-	"name": "test-component",
-	"main": ["*.scss", "*.js"]
+	"name": "o-test-component",
+	"main": ["main.scss", "main.js"]
 }
