@@ -5,6 +5,9 @@
 			"template": "demos/src/main.mustache"
 		}
 	],
+	"demosDefaults": {
+		"sass": "demos/src/demo.scss"
+	},
 	"supportStatus": "deprecated",
 	"origamiType": "module",
 	"description": "A component used to test origami tools and services",

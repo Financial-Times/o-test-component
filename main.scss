@@ -1,4 +1,23 @@
+@import 'o-brand/main';
 
-.test-compile-error {
-	color: red;
+@include oBrandDefine('o-test-component', 'master', (
+	'variables': (
+		'test-content': 'master'
+	)
+));
+
+@include oBrandDefine('o-test-component', 'internal', (
+	'variables': (
+		'test-content': 'internal'
+	)
+));
+
+@include oBrandDefine('o-test-component', 'whitelabel', (
+	'variables': (
+		'test-content': 'whitelabel'
+	)
+));
+
+.o-test-component-brand:after {
+	content: oBrandGet($component: 'o-test-component', $variables: 'test-content');
 }
