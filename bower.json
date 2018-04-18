@@ -1,4 +1,10 @@
 {
-	"name": "o-test-component",
-	"main": ["main.scss", "main.js"]
+  "name": "o-test-component",
+  "main": [
+    "main.scss",
+    "main.js"
+  ],
+  "dependencies": {
+    "o-brand": "^2.0.3"
+  }
 }
