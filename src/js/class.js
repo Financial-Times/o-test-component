@@ -17,16 +17,27 @@ Person.prototype.sayHello = () => {
 }
 
 /**
+ * Class representing a domesticated animal.
+ */
+class Pet {
+    eat(food) {
+        console.log('Nom nom.');
+    }
+}
+
+/**
  * Creates a new Cat.
  * Uses JSDoc class tag with doc comments on class and constructor.
  * http://usejsdoc.org/tags-class.html
  * @class
+ * @extends Pet
  */
-class Cat {
+class Cat extends Pet {
     /**
      * @param {string} name
      */
     constructor(name) {
+        super();
         this.name = name;
     }
 
@@ -38,7 +49,10 @@ class Cat {
     }
 }
 
-class Dog {
+/**
+ * @extends Pet
+ */
+class Dog extends Pet {
     /**
      * Creates a new Dog.
      * Missing class tag and doc comment on constructor only.
@@ -46,6 +60,7 @@ class Dog {
      * @param {string} name
      */
     constructor(name) {
+        super();
         this.name = name;
     }
 
