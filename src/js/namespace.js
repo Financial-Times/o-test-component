@@ -1,18 +1,8 @@
-/**
- * A namespace MyNamespace.
- * http://usejsdoc.org/tags-namespace.html
- * @namespace MyNamespace
- */
+/** @namespace window */
 
 /**
- * A function in MyNamespace (MyNamespace.myFunction).
- * @function myFunction
- * @memberof MyNamespace
+ * Alertnate for the alert function.
+ * Example of a namespace tag http://usejsdoc.org/tags-namespace.html
+ * @param {string} msg - Message to show in an alert dialogue.
  */
-function myFunction() {
-    console.log('A function in a pretend namespace.');
-}
-
-module.exports = {
-    myFunction
-};
+window["!"] = function (msg) { alert(msg); };

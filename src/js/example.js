@@ -1,4 +1,4 @@
-/** @module example-module */
+/** @module Example */
 
 /**
  * Test the JsDoc example tag.

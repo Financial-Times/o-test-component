@@ -1,6 +1,6 @@
 /**
  * Tests a single export module.
- * @module my-module
+ * @module Module
  * @see module:example-module for an example of multi export module documentation.
  * @returns {String} Returns a fixed string.
  */
