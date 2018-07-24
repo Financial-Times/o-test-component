@@ -1,7 +1,7 @@
 /**
  * Creates a new Person.
  * http://usejsdoc.org/tags-class.html
- * @class
+ * @constructor
  * @param {string} name
  */
 function Person(name) {
