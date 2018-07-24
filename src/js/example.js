@@ -25,7 +25,7 @@ module.exports.solveAsExample = function solveAsExample(a, b) {
  * myIncrementer.increment(4); // 8
  * myIncrementer.increment(1); // 9
  */
-module.exports = function incrementer() {
+module.exports.incrementer = function incrementer() {
     this.num = 0;
     /**
      * An example constructor within a module.
