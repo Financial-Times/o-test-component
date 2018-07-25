@@ -1,11 +1,11 @@
 /// @source https://www.google.co.uk/
 /// @author Jane Madeup Smith
 /// @author John Madeup Smith
-/// @param {Bool} $keep-quite [false] - Whether to tell (default) or keep quite.
+/// @param {Bool} $keep-quiet [false] - Whether to tell (default) or keep quiet.
 /// @param {Bool} $truth [true] - Whether to tell the truth (default) or lie.
 /// @return {String|Null} - A made-up sentence.
-@function oTestComponentTell($keep-quite: false, $truth: true) {
-    @if $keep-quite {
+@function oTestComponentTell($keep-quiet: false, $truth: true) {
+    @if $keep-quiet {
         @return null;
     }
     @if $truth {
