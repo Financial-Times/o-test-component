@@ -10,7 +10,7 @@ $o-test-component-b2b-color: blue;
 $o-test-component-primary-color: $o-test-component-main-color;
 
 /// @type Map
-$features: ('big', 'small');
+$o-test-component-features: ('big', 'small');
 
 /// @todo Integrate scale with size related mixins.
 /// @type Map

@@ -21,7 +21,7 @@
 ///         };
 ///     }
 @mixin oTestComponentIfFeature($feature) {
-    @if map-get($map: $features, $key: $feature) {
+    @if map-get($map: $o-test-component-features, $key: $feature) {
         @content;
     }
 }
