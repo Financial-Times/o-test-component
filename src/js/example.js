@@ -13,7 +13,7 @@
  * @returns {Number} Returns the value of x for the equation.
  */
 module.exports.solveAsExample = function solveAsExample(a, b) {
-    return b / a;
+	return b / a;
 };
 
 /**
@@ -26,14 +26,14 @@ module.exports.solveAsExample = function solveAsExample(a, b) {
  * myIncrementer.increment(1); // 9
  */
 module.exports.incrementer = function incrementer() {
-    this.num = 0;
-    /**
-     * An example constructor within a module.
-     * @param {Number} num - The number to increment by.
-     * @returns {Number} - The updated value.
-     */
-    this.increment = function (num) {
-        this.num += num;
-        return this.num;
-    }
+	this.num = 0;
+	/**
+	 * An example constructor within a module.
+	 * @param {Number} num - The number to increment by.
+	 * @returns {Number} - The updated value.
+	 */
+	this.increment = function (num) {
+		this.num += num;
+		return this.num;
+	};
 };
