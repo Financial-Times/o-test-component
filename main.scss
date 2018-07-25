@@ -1,0 +1,24 @@
+@import 'functions';
+@import 'mixins';
+
+/// A placeholder for shared styles.
+/// It's "naughty" as we usually avoid them.
+%o-test-component {
+    content: 'Naughty palceholder.';
+}
+
+.o-test-component {
+    @extend %o-test-component;
+}
+
+.o-test-component--big {
+    @include oTestComponentBig()
+}
+
+.o-test-component--small {
+    @include oTestComponentSmall()
+}
+
+.o-test-component--b2b {
+    @include oTestComponentB2b()
+}

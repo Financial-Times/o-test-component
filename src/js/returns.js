@@ -7,12 +7,12 @@
  * @returns {(number|Array)} Sum of a and b or an array that contains a, b and the sum of a and b.
  */
 function myReturnSum(a, b, retArr) {
-    if (retArr) {
-        return [a, b, a + b];
-    }
-    return a + b;
+	if (retArr) {
+		return [a, b, a + b];
+	}
+	return a + b;
 }
 
 module.exports = {
-    myReturnSum
+	myReturnSum
 };

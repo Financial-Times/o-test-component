@@ -12,18 +12,18 @@ function Hurl() {
  * @fires Hurl#snowball
  */
 Hurl.prototype.snowball = function () {
-    /**
-     * Snowball event.
-     *
-     * @event Hurl#snowball
-     * @type {object}
-     * @property {boolean} detail.isPacked - Indicates whether the snowball is tightly packed.
-     */
-    this.dispatchEvent(new CustomEvent('snowball', {
-        detail: {
-            isPacked: this._snowball.isPacked
-        }
-    }));
+	/**
+	 * Snowball event.
+	 *
+	 * @event Hurl#snowball
+	 * @type {object}
+	 * @property {boolean} detail.isPacked - Indicates whether the snowball is tightly packed.
+	 */
+	this.dispatchEvent(new CustomEvent('snowball', {
+		detail: {
+			isPacked: this._snowball.isPacked
+		}
+	}));
 };
 
 

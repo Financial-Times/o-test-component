@@ -11,5 +11,8 @@ const foo = 42;
  * @param {string} somebody
  */
 function sayHello(somebody) {
-    alert('Hello ' + somebody);
+	console.log('Hello ' + somebody);
 }
+
+console.log(foo);
+sayHello();

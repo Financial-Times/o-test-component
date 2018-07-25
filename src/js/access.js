@@ -12,7 +12,7 @@ const privateMember = 'shhh';
  * @private
  */
 function whisper() {
-    console.log(privateMember);
+	console.log(privateMember);
 }
 
 /**
@@ -20,11 +20,11 @@ function whisper() {
  * http://usejsdoc.org/tags-private.html
  */
 function _utterQuietly() {
-    console.log(privateMember);
+	console.log(privateMember);
 }
 
 module.exports = {
-    privateMember,
-    whisper,
-    _utterQuietly
+	privateMember,
+	whisper,
+	_utterQuietly
 };
