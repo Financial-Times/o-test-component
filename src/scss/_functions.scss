@@ -1,0 +1,33 @@
+/// @source https://www.google.co.uk/
+/// @author Jane Madeup Smith
+/// @author John Madeup Smith
+/// @param {Bool} $keep-quite [false] - Whether to tell (default) or keep quite.
+/// @param {Bool} $truth [true] - Whether to tell the truth (default) or lie.
+/// @return {String|Null} - A made-up sentence.
+@function oTestComponentTell($keep-quite: false, $truth: true) {
+    @if $keep-quite {
+        @return null;
+    }
+    @if $truth {
+        @return 'Copy-pasta: This code has an author.';
+    }
+    @return 'I made this.';
+}
+
+/// @group helpers
+/// @return {Number}
+/// @example scss
+///     oTestComponentDouble(2) //4
+/// @example scss
+///     oTestComponentDouble(10) //10
+/// @deprecated This function has been replaced. Please contact Origami with any questions.
+@function oTestComponentDouble($scale) {
+    @return 2 * $scale;
+}
+
+/// @group helpers
+/// @return {Number}
+/// @access private
+@function _oTestComponentGetSize($scale) {
+    @return 25 * $scale;
+}
