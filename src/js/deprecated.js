@@ -4,5 +4,7 @@
  * To make a human says hello, announcing their name.
  */
 function humanSayHello(name) {
-    console.log(`Hi, my name is ${name}`);
+	console.log(`Hi, my name is ${name}`);
 }
+
+module.exports = humanSayHello;
