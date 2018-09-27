@@ -1,0 +1,6 @@
+/// The main stlyes fo a simple test component.
+@mixin oTestComponentHelloWorld() {
+    body:after {
+        content: 'Hello world!';
+    }
+}
