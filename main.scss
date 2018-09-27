@@ -1,23 +1,30 @@
-@import 'o-brand/main';
+@import './src/scss/variables';
+@import './src/scss/functions';
+@import './src/scss/mixins';
 
-@include oBrandDefine('o-test-component', 'master', (
-	'variables': (
-		'test-content': 'master'
-	)
-));
+@if $o-test-component-is-silent == false {
+    /// A placeholder for shared styles.
+    /// It's "naughty" as we usually avoid them.
+    %o-test-component {
+        content: 'Naughty palceholder.';
+    }
 
-@include oBrandDefine('o-test-component', 'internal', (
-	'variables': (
-		'test-content': 'internal'
-	)
-));
+    .o-test-component {
+        @extend %o-test-component;
+    }
 
-@include oBrandDefine('o-test-component', 'whitelabel', (
-	'variables': (
-		'test-content': 'whitelabel'
-	)
-));
+    .o-test-component--big {
+        @include oTestComponentBig()
+    }
 
-.o-test-component-brand:after {
-	content: oBrandGet($component: 'o-test-component', $variables: 'test-content');
+    .o-test-component--small {
+        @include oTestComponentSmall()
+    }
+
+    .o-test-component--b2b {
+        @include oTestComponentB2b()
+    }
+
+	// Don't output twice
+	$o-test-component-is-silent: true !global;
 }
