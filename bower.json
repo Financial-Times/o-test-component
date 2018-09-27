@@ -1,8 +1,7 @@
 {
   "name": "o-test-component",
   "main": [
-    "main.scss",
-    "main.js"
+    "main.scss"
   ],
   "dependencies": {
   }
