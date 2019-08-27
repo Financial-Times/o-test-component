@@ -1,16 +1,3 @@
 {
-  "name": "o-test-component",
-  "version": "1.0.26",
-  "description": "o-test-component",
-  "main": "main.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Financial-Times/o-test-component.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Financial-Times/o-test-component/issues"
-  },
-  "homepage": "https://github.com/Financial-Times/o-test-component#readme"
+  "name": "o-test-component"
 }

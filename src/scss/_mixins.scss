@@ -1,6 +1,5 @@
 /// The main stlyes fo a simple test component.
-@mixin oTestComponentHelloWorld() {
-    body:after {
-        content: 'Hello world!';
-    }
+/// Outputs the global "$system-code" variable if there is one.
+@mixin oTestComponentSystemCodeContent() {
+    content: $system-code;
 }

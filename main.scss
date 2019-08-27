@@ -2,8 +2,9 @@ $o-test-component-is-silent: true !default;
 @import './src/scss/mixins';
 
 @if $o-test-component-is-silent == false {
-    @include oTestComponentHelloWorld();
-
+	.o-test-component {
+		@include oTestComponentSystemCodeContent();
+	}
 	// Don't output twice
 	$o-test-component-is-silent: true !global;
 }
