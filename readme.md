@@ -11,7 +11,7 @@ This component is used to aid in testing the Origami tooling systems.
 
 This module should not be used by any teams other than Origami.
 
-Each release of this component is used to test a different scenario in the Origami services.
+Each release of this component is used to test a different scenario in the Origami services and tools.
 
 ---
 
