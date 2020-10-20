@@ -9,5 +9,8 @@
   },
   "peerDependencies": {
     "lodash": "^4.17.20"
+  },
+  "engines": {
+    "npm": ">=7"
   }
 }
