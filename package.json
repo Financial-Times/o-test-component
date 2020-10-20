@@ -1,11 +1,12 @@
 {
   "name": "o-test-component",
+  "description": "A component used to test origami tools and services",
+  "version": "1.0.0-spec-v2",
+  "main": "main.js",
   "devDependencies": {
     "eslint": "^7.11.0",
     "origami-ci-tools": "^2.1.1"
   },
-  "version": "1.0.0-dev",
-  "main": "main.js",
   "peerDependencies": {
     "lodash": "^4.17.20"
   }
