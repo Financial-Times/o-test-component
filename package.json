@@ -5,5 +5,8 @@
     "origami-ci-tools": "^2.1.1"
   },
   "version": "1.0.0-dev",
-  "main": "main.js"
+  "main": "main.js",
+  "peerDependencies": {
+    "lodash": "^4.17.20"
+  }
 }
