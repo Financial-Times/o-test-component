@@ -2,7 +2,7 @@
   "name": "o-test-component",
   "devDependencies": {
     "eslint": "^7.17.0",
-    "origami-ci-tools": "^2.2.0"
+    "origami-ci-tools": "^2.3.0"
   },
   "version": "1.0.0-dev"
 }
