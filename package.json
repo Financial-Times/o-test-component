@@ -1,7 +1,7 @@
 {
   "name": "o-test-component",
   "description": "A component used to test origami tools and services",
-  "version": "1.0.0-spec-v2",
+  "version": "0.0.0",
   "main": "main.js",
   "devDependencies": {
     "eslint": "^7.15.0",
