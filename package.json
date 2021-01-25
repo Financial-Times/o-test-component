@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "main": "main.js",
   "devDependencies": {
-    "eslint": "^7.15.0",
-    "origami-ci-tools": "^2.2.0"
+    "eslint": "^7.18.0",
+    "origami-ci-tools": "^2.3.0"
   },
   "peerDependencies": {
     "lodash": "^4.17.20"
