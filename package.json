@@ -1,16 +1,43 @@
 {
-  "name": "o-test-component",
+  "name": "@financial-times/o-test-component",
+  "version": "0.0.0",
   "description": "A component used to test origami tools and services",
-  "version": "1.0.0-spec-v2",
-  "main": "main.js",
-  "devDependencies": {
-    "eslint": "^7.15.0",
-    "origami-ci-tools": "^2.2.0"
+  "keywords": [],
+  "homepage": "https://registry.origami.ft.com/components/o-test-component",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/o-test-component/issues"
   },
-  "peerDependencies": {
-    "lodash": "^4.17.20"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/o-test-component.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./main.js"
+    }
+  },
+  "browser": "./main.js",
+  "types": "./types/main.d.ts",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-origami-component": "^2.1.0",
+    "origami-ci-tools": "^2.2.0",
+    "remark": "^12.0.1",
+    "remark-lint": "^7.0.1",
+    "remark-preset-lint-origami-component": "^2.0.0-beta.1",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "tsc src/**/*.js main.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "version": "npm run build && git add ./types"
   },
   "engines": {
     "npm": ">=7"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.20"
   }
 }

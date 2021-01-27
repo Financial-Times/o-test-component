@@ -7,5 +7,16 @@
 	"supportContact": {
 		"email": "origami.support@ft.com",
 		"slack": "financialtimes/origami-support"
-	}
+	},
+	"demosDefaults": {
+		"js": "demos/src/demo.js"
+	},
+	"demos": [
+		{
+			"title": "Test Demo",
+			"name": "test-demo",
+			"template": "demos/src/test-demo.mustache",
+			"description": "This demo shows the test component in action."
+		}
+	]
 }
