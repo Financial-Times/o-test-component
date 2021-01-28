@@ -2,7 +2,7 @@
 // @param {Number} The number to find a square root for.
 // @return {Number}
 // @example
-//     oTestComponentSquareRoot(2); // 1.41421
+//     oTestComponentSquareRoot(64); // 8
 @function oTestComponentSquareRoot($number) {
     @return sqrt($number);
 }

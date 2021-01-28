@@ -1,5 +1,0 @@
-/// The main stlyes fo a simple test component.
-/// Outputs the global "$system-code" variable if there is one.
-@mixin oTestComponentSystemCodeContent() {
-    content: $system-code;
-}
