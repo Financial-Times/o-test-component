@@ -1,5 +1,7 @@
 $o-test-component-is-silent: true !default;
+@import "mathsass/dist/math";
 @import './src/scss/mixins';
+@import './src/scss/functions';
 
 @if $o-test-component-is-silent == false {
 	.o-test-component {
