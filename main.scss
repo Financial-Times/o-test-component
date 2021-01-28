@@ -1,10 +1,21 @@
-$o-test-component-is-silent: true !default;
-@import './src/scss/mixins';
+@import "mathsass/dist/math";
+
+@import './src/scss/variables';
+@import './src/scss/functions';
+
+/// Output all o-test-component styles.
+@mixin oTestComponent() {
+	.o-test-component {
+		padding: 0.5em 1em;
+		background-color: pink;
+		&:after {
+			content: 'The square root of 64 is "#{oTestComponentSquareRoot(64)}".';
+		}
+	}
+}
 
 @if $o-test-component-is-silent == false {
-	.o-test-component {
-		@include oTestComponentSystemCodeContent();
-	}
+	@include oTestComponent();
 	// Don't output twice
 	$o-test-component-is-silent: true !global;
 }

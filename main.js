@@ -1,3 +1,3 @@
-export default function hello(name) {
-    console.log('hello', name);
-}
+import { hello } from './src/js/greet.js';
+
+hello('World');
