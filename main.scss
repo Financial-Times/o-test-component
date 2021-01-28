@@ -5,13 +5,13 @@
 
 /// Output all o-test-component styles.
 @mixin oTestComponent() {
-    .o-test-component {
-        padding: 0.5em 1em;
+	.o-test-component {
+		padding: 0.5em 1em;
 		background-color: pink;
 		&:after {
 			content: 'The square root of 64 is "#{oTestComponentSquareRoot(64)}".';
 		}
-    }
+	}
 }
 
 @if $o-test-component-is-silent == false {

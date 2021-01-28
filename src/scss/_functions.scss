@@ -4,5 +4,5 @@
 // @example
 //     oTestComponentSquareRoot(64); // 8
 @function oTestComponentSquareRoot($number) {
-    @return sqrt($number);
+	@return sqrt($number);
 }

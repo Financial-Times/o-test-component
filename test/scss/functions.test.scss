@@ -1,5 +1,5 @@
 @include describe('oTestComponentSquareRoot') {
-    @include it('returns the square root of a number') {
-        @include assert-equal(oTestComponentSquareRoot(2), 1.4142135624, $inspect: true);
-    }
+	@include it('returns the square root of a number') {
+		@include assert-equal(oTestComponentSquareRoot(2), 1.4142135624, $inspect: true);
+	}
 }
