@@ -34,7 +34,7 @@
   },
   "scripts": {
     "build": "tsc src/**/*.js main.js --declaration --allowJs --emitDeclarationOnly --outDir types",
-    "version": "npm run build && git add ./types"
+    "version": "npm run build"
   },
   "engines": {
     "npm": ">=7"
