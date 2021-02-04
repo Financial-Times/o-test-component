@@ -1,5 +1,4 @@
-o-test-component
-=================
+# @financial-times/o-test-component
 
 This component is used to aid in testing the Origami tooling systems.
 
@@ -11,6 +10,8 @@ This component is used to aid in testing the Origami tooling systems.
 This module should not be used by any teams other than Origami.
 
 Each release of this component is used to test a different scenario in the Origami services and tools.
+
+To learn about getting started with other Origami components see the [Origami component documentation](https://origami.ft.com/docs/components).
 
 ----
 
