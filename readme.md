@@ -13,6 +13,14 @@ Each release of this component is used to test a different scenario in the Origa
 
 To learn about getting started with other Origami components see the [Origami component documentation](https://origami.ft.com/docs/components).
 
+
+## Versions
+
+|version|valid js|valid sass|valid html|valid demos|valid readme|js tests pass|sass tests pass|
+|-------|--------|----------|----------|-----------|------------|-------------|---------------|
+|2.0.1| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+
+
 ----
 
 ## Licence
