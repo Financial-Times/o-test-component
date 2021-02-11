@@ -20,6 +20,7 @@ To learn about getting started with other Origami components see the [Origami co
 |version|valid js|valid sass|valid html|valid demos|valid readme|js tests pass|sass tests pass|
 |-------|--------|----------|----------|-----------|------------|-------------|---------------|
 |2.0.1| Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+|2.0.2| No | Yes | Yes | Yes | Yes | Yes | Yes |
 
 
 ----

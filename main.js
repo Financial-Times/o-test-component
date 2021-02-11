@@ -1,3 +1,3 @@
-import { hello } from './src/js/greet.js';
+import { hello } from "./src/js/greet"
 
-hello('World');
+hello(`World`)
