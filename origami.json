@@ -12,5 +12,19 @@
 		"js": "demos/src/demo.js",
 		"sass": "demos/src/demo.scss"
 	},
-	"demos": "no"
+	"demos": [
+		{
+			"title": "Test Demo",
+			"name": "test-demo",
+			"template": "demos/src/test-demo.mustache",
+			"description": "This demo shows the test component in action."
+		},
+		{
+			"title": "Pa11y",
+			"name": "pa11y",
+			"template": "demos/src/test-demo.mustache",
+			"hidden": true,
+			"description": "Used to run automated accessibility tests against."
+		}
+	]
 }
