@@ -26,6 +26,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.0.5| Yes | Yes | Yes | Yes | Yes | No | Yes |
 |2.0.6| Yes | Yes | Yes | Yes | Yes | Yes | No |
 |2.0.7| Yes | Yes | Yes | No | Yes | Yes | Yes |
+|2.0.8| Yes | Yes | No | Yes | Yes | Yes | Yes |
 
 
 ----
