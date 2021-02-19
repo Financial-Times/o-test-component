@@ -2,7 +2,7 @@ name: npm audit fix
 
 on:
   schedule:
-    - cron: 0 0 * * * # Runs at 00:00 UTC every day
+    - cron: 35 0 0 * * # Runs at 00:00 UTC every day
 
 # on:
 #   push:
@@ -19,9 +19,12 @@ jobs:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
     - run: npm install -g "npm@^7"
-    - uses: ybiquitous/npm-audit-fix-action@v2.1.6
+    - uses: miyajan/npm-audit-pr@v1.0.4
       with:
-        github_token: ${{ secrets.ORIGAMI_GITHUB_TOKEN }}
+        token: ${{ secrets.ORIGAMI_GITHUB_TOKEN }}
+#     - uses: ybiquitous/npm-audit-fix-action@v2.1.6
+#       with:
+#         github_token: ${{ secrets.ORIGAMI_GITHUB_TOKEN }}
         # branch: "npm-audit-fix"
         # default_branch: "master"
         # commit_title: "chore(deps): npm audit fix"
