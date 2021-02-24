@@ -29,6 +29,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.0.8  | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           |                                               |
 |2.0.9  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           |                                               |
 |2.0.10 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | The demo's mustache causes a compilation error|
+|2.0.11 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | The demo's sass causes a compilation error    |
 
 
 ----
