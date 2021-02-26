@@ -1,0 +1,30 @@
+{
+	"supportStatus": "deprecated",
+	"origamiType": "module",
+	"description": "A component used to test origami tools and services",
+	"origamiVersion": 2,
+	"support": "origami.support@ft.com",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/origami-support"
+	},
+	"demosDefaults": {
+		"js": "demos/src/demo.js",
+		"sass": "demos/src/demo.scss"
+	},
+	"demos": [
+		{
+			"title": "Test Demo",
+			"name": "test-demo",
+			"template": "demos/src/test-demo.mustache",
+			"description": "This demo shows the test component in action."
+		},
+		{
+			"title": "Pa11y",
+			"name": "pa11y",
+			"template": "demos/src/test-demo.mustache",
+			"hidden": true,
+			"description": "Used to run automated accessibility tests against."
+		}
+	]
+}
