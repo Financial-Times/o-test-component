@@ -1,9 +1,10 @@
 import { partial } from 'lodash-es';
 
-fnutcion greet(greeting, name) {
-	csnot phrase = greeting + ' ' + name;
+function greet(greeting, name) {
+	const phrase = greeting + ' ' + name;
 	// eslint-disable-next-line no-console
-	rutern phrase;
+	console.log(phrase);
+	return phrase;
 }
 
 const hello = partial(greet, 'hello');
