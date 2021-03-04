@@ -32,6 +32,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.0.11 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | The demo's sass causes a compilation error    |
 |2.0.12 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | The demo's js causes a compilation error      |
 |2.0.13 | No     | No       | No       | No        | No         | No          | No            | No origami.json file                          |
+|2.0.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Syntax errors in component js                 |
 
 
 ----
