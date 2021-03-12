@@ -42,10 +42,7 @@
   "dependencies": {
     "lodash-es": "^4.17.20"
   },
-  "peerDependencies": {
-    "@financial-times/o-brand": "^4.0.0-beta.0",
-    "mathsass": "^0.11.0"
-  },
+  "peerDependencies": {},
   "volta": {
     "node": "14.15.4",
     "npm": "7.5.3"
