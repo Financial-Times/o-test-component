@@ -1,8 +1,0 @@
-/// Get the square root of a given number.
-// @param {Number} The number to find a square root for.
-// @return {Number}
-// @example
-//     oTestComponentSquareRoot(64); // 8
-@function oTestComponentSquareRoot($number) {
-	@return sqrt($number);
-}
