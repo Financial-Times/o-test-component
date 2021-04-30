@@ -49,6 +49,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.1.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  | Syntax errors in component js                 |
 |2.1.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes  | The demo html contains invalid syntax which causes prettier to throw an error |
 |2.1.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | Yes  |                                               |
+|2.1.17 | Yes    | Yes        | No       | Yes       | Yes        | Yes         | Yes             | Yes  |                                               |
 
 ----
 

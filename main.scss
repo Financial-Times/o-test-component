@@ -1,0 +1,23 @@
+@import "mathsass/dist/math";
+@import "@financial-times/o-brand/main";
+
+@import './src/scss/variables';
+@import './src/scss/brand';
+@import './src/scss/functions';
+
+/// Output all o-test-component styles.
+@mixin oTestComponent() {
+	.o-test-component {
+		padding: 0.5em 1em;
+		background-color: pink;
+		&:after {
+			content: _oTestComponentGet('content') + ' The square root of 64 is "#{oTestComponentSquareRoot(64)}".';
+		}
+	}
+}
+
+@if $o-test-component-is-silent == false {
+	@include oTestComponent();
+	// Don't output twice
+	$o-test-component-is-silent: true !global;
+}

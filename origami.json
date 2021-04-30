@@ -9,7 +9,8 @@
 		"slack": "financialtimes/origami-support"
 	},
 	"demosDefaults": {
-		"js": "demos/src/demo.js"
+		"js": "demos/src/demo.js",
+		"sass": "demos/src/demo.scss"
 	},
 	"demos": [
 		{
