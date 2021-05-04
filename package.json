@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/o-test-component",
-  "version": "0.0.0",
+  "version": "2.0.15",
   "description": "A component used to test origami tools and services",
   "keywords": [],
   "homepage": "https://registry.origami.ft.com/components/o-test-component",
@@ -24,9 +24,8 @@
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-config-origami-component": "^2.1.0",
-    "origami-ci-tools": "3.0.0-beta.6",
-    "remark": "^12.0.1",
-    "remark-lint": "^7.0.1",
+    "remark": "^13.0.0",
+    "remark-lint": "^8.0.0",
     "remark-preset-lint-origami-component": "^2.0.0-beta.1",
     "stylelint": "^13.9.0",
     "stylelint-config-origami-component": "^1.0.4",
@@ -42,8 +41,9 @@
   "dependencies": {
     "lodash-es": "^4.17.20"
   },
-  "peerDependencies": {
-    "@financial-times/o-brand": "^4.0.0-beta.0",
-    "mathsass": "^0.11.0"
+  "peerDependencies": {},
+  "volta": {
+    "node": "14.16.1",
+    "npm": "7.11.1"
   }
 }
