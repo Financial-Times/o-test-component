@@ -1,48 +1,48 @@
 {
-	"name": "@financial-times/o-test-component",
-	"version": "0.0.0",
-	"description": "A component used to test origami tools and services",
-	"keywords": [],
-	"homepage": "https://registry.origami.ft.com/components/o-test-component",
-	"bugs": {
-		"url": "https://github.com/Financial-Times/o-test-component/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Financial-Times/o-test-component.git"
-	},
-	"license": "MIT",
-	"author": "",
-	"type": "module",
-	"exports": {
-		".": {
-			"browser": "./main.js"
-		}
-	},
-	"browser": "./main.js",
-	"types": "./types/main.d.ts",
-	"devDependencies": {
-		"eslint": "^7.19.0",
-		"eslint-config-origami-component": "^2.1.0",
-		"remark": "^12.0.1",
-		"remark-lint": "^7.0.1",
-		"remark-preset-lint-origami-component": "prerelease",
-		"stylelint": "^13.9.0",
-		"stylelint-config-origami-component": "^1.0.4",
-		"typescript": "^4.0.5"
-	},
-	"scripts": {
-		"build": "tsc src/**/*.js main.js --declaration --allowJs --emitDeclarationOnly --outDir types",
-		"version": "npm run build"
-	},
-	"engines": {
-		"npm": ">=7"
-	},
-	"dependencies": {
-		"lodash-es": "^4.17.20"
-	},
-	"peerDependencies": {
-		"@financial-times/o-brand": "^4.0.0-beta.0",
-		"mathsass": "^0.11.0"
-	}
+  "name": "@financial-times/o-test-component",
+  "version": "2.2.1",
+  "description": "A component used to test origami tools and services",
+  "keywords": [],
+  "homepage": "https://registry.origami.ft.com/components/o-test-component",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/o-test-component/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/o-test-component.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./main.js"
+    }
+  },
+  "browser": "./main.js",
+  "types": "./types/main.d.ts",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-origami-component": "^2.1.0",
+    "remark": "^12.0.1",
+    "remark-lint": "^7.0.1",
+    "remark-preset-lint-origami-component": "prerelease",
+    "stylelint": "^13.9.0",
+    "stylelint-config-origami-component": "^1.0.4",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "build": "tsc src/**/*.js main.js --declaration --allowJs --emitDeclarationOnly --outDir types",
+    "version": "npm run build"
+  },
+  "engines": {
+    "npm": ">=7"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.20"
+  },
+  "peerDependencies": {
+    "@financial-times/o-brand": "^4.0.0-beta.0",
+    "mathsass": "^0.11.0"
+  }
 }
