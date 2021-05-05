@@ -24,7 +24,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.0.3| Yes | No | Yes | Yes | Yes | Yes | Yes |
 
 
-----
+***
 
 ## Licence
 
