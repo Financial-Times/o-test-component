@@ -1,4 +1,4 @@
-# @financial-times/o-test-component
+# o-test-component
 
 This component is used to aid in testing the Origami tooling systems.
 
