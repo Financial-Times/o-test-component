@@ -14,7 +14,6 @@ Each release of this component is used to test a different scenario in the Origa
 
 To learn about getting started with other Origami components see the [Origami component documentation](https://origami.ft.com/docs/components).
 
-
 ## Versions
 
 |version|valid js|valid sass|valid html|valid demos|valid readme|js tests pass|sass tests pass|js lint passes|sass lint passes|valid origami.json  |description                      |
@@ -35,6 +34,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.2.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No           | Yes            | Yes  | Syntax errors in component js                 |
 |2.2.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes          | Yes            | Yes  | The demo html contains invalid syntax which causes prettier to throw an error |
 |2.2.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | Yes          | Yes            | Yes  |                                               |
+|2.2.17 | Yes    | No       | Yes      | Yes       | Yes        | Yes         | Yes           | Yes          | Yes            | Yes  | Missing the primary mixin `oTestComponentNotAPrimaryMixin`, required by v2 of the Origami specification |
 
 _2.2.1 introduces a Sass linting error not present in 2.0.1 or 2.1.1. Otherwise 2.0.x and 2.1.x match the corresponding patch version in the table above. However they have a number of additional failures related to [changes made](https://github.com/Financial-Times/o-test-component/pull/147) in the draft v2 version of the Origami specification, including an invalid `origamiVersion` in `origami.json` for 2.0.x test components._
 
