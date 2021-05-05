@@ -45,7 +45,7 @@
     "@financial-times/o-brand": "prerelease"
   },
   "volta": {
-    "node": "14.15.4",
-    "npm": "7.5.3"
+    "node": "14.16.1",
+    "npm": "7.11.1"
   }
 }
