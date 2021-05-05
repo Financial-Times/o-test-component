@@ -34,7 +34,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.0.13 | No     | No       | No       | No        | No         | No          | No            | No, 2 instead of 2.0  | No origami.json file                          |
 |2.0.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No, 2 instead of 2.0  | Syntax errors in component js                 |
 |2.0.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | No, 2 instead of 2.0  | The demo html contains invalid syntax which causes prettier to throw an error |
-|2.0.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | Yes                   |                                               |
+|2.0.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | No                    |                                               |
 
 ***
 
