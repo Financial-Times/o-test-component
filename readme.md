@@ -13,7 +13,7 @@ Each release of this component is used to test a different scenario in the Origa
 
 To learn about getting started with other Origami components see the [Origami component documentation](https://origami.ft.com/docs/components).
 
-----
+***
 
 ## Licence
 
