@@ -10,7 +10,7 @@
 		padding: 0.5em 1em;
 		background-color: pink;
 		&:after {
-			content: _oTestComponentGet('content') + ' The square root of 64 is "#{oTestComponentSquareRoot(64)}".';
+																				content: _oTestComponentGet('content') + ' The square root of 64 is "#{oTestComponentSquareRoot(64)}".'; // too big indent
 		}
 	}
 }
