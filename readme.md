@@ -17,38 +17,24 @@ To learn about getting started with other Origami components see the [Origami co
 
 ## Versions
 
-|version|valid js|valid sass|valid html|valid demos|valid readme|js tests pass|sass tests pass|valid origamiVersion|description|
-|-------|--------|----------|----------|-----------|------------|-------------|---------------|--------------------|-----------|
-|2.0.1  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No   | |
-|2.0.3  | Yes    | No       | Yes      | Yes       | Yes        | Yes         | Yes           | No   | |
-|2.0.4  | Yes    | Yes      | Yes      | Yes       | No         | Yes         | Yes           | No   | |
-|2.0.5  | Yes    | Yes      | Yes      | Yes       | Yes        | No          | Yes           | No   | |
-|2.0.6  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | No            | No   | |
-|2.0.7  | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | No   | |
-|2.0.8  | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | No   | |
-|2.0.9  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No   | |
-|2.0.10 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | No   | The demo's mustache causes a compilation error|
-|2.0.11 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | No   | The demo's sass causes a compilation error    |
-|2.0.12 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | No   | The demo's js causes a compilation error      |
-|2.0.13 | No     | No       | No       | No        | No         | No          | No            | No   | No origami.json file                          |
-|2.0.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No   | Syntax errors in component js                 |
-|2.0.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | No   | The demo html contains invalid syntax which causes prettier to throw an error |
-|2.0.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | No   |                                               |
-|2.1.1  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
-|2.1.3  | Yes    | No       | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
-|2.1.4  | Yes    | Yes      | Yes      | Yes       | No         | Yes         | Yes           | Yes  |                                               |
-|2.1.5  | Yes    | Yes      | Yes      | Yes       | Yes        | No          | Yes           | Yes  |                                               |
-|2.1.6  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | No            | Yes  |                                               |
-|2.1.7  | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  |                                               |
-|2.1.8  | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
-|2.1.9  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
-|2.1.10 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's mustache causes a compilation error|
-|2.1.11 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's sass causes a compilation error    |
-|2.1.12 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's js causes a compilation error      |
-|2.1.13 | No     | No       | No       | No        | No         | No          | No            | Yes  | No origami.json file                          |
-|2.1.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  | Syntax errors in component js                 |
-|2.1.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes  | The demo html contains invalid syntax which causes prettier to throw an error |
-|2.1.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | No   |                                               |
+|version|valid js|valid sass|valid html|valid demos|valid readme|js tests pass|sass tests pass|valid origami.json  |description                      |
+|-------|--------|----------|----------|-----------|------------|-------------|---------------|--------------------|---------------------------------|
+|2.2.3  | Yes    | No       | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
+|2.2.4  | Yes    | Yes      | Yes      | Yes       | No         | Yes         | Yes           | Yes  |                                               |
+|2.2.5  | Yes    | Yes      | Yes      | Yes       | Yes        | No          | Yes           | Yes  |                                               |
+|2.2.6  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | No            | Yes  |                                               |
+|2.2.7  | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  |                                               |
+|2.2.8  | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes  |                                               |
+|2.2.9  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  | ✅ All correct.                                |
+|2.2.10 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's mustache causes a compilation error|
+|2.2.11 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's sass causes a compilation error    |
+|2.2.12 | Yes    | Yes      | Yes      | No        | Yes        | Yes         | Yes           | Yes  | The demo's js causes a compilation error      |
+|2.2.13 | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | No   | No origami.json file                          |
+|2.2.14 | No     | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes  | Syntax errors in component js                 |
+|2.2.15 | Yes    | Yes      | No       | Yes       | Yes        | Yes         | Yes           | Yes  | The demo html contains invalid syntax which causes prettier to throw an error |
+|2.2.16 | Yes    | -        | No       | Yes       | Yes        | Yes         | -             | Yes  |                                               |
+
+_2.0.x and 2.1.x match the corresponding patch version in the table above. However they have a number of additional failures related to [changes made](https://github.com/Financial-Times/o-test-component/pull/147) in the draft v2 version of the Origami specification, including an invalid `origamiVersion` in `origami.json` for 2.0.x test components._
 
 ***
 
