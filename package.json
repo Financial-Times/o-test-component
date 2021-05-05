@@ -44,5 +44,9 @@
   "peerDependencies": {
     "@financial-times/o-brand": "prerelease",
     "mathsass": "^0.11.0"
+  },
+  "volta": {
+    "node": "14.16.1",
+    "npm": "7.11.1"
   }
 }
