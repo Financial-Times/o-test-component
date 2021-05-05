@@ -2,7 +2,7 @@
 	"supportStatus": "deprecated",
 	"origamiType": "module",
 	"description": "A component used to test origami tools and services",
-	"origamiVersion": "2.0.0",
+	"origamiVersion": "2.0",
 	"support": "origami.support@ft.com",
 	"supportContact": {
 		"email": "origami.support@ft.com",
