@@ -39,7 +39,7 @@
     "lodash-es": "^4.17.20"
   },
   "peerDependencies": {
-    "@financial-times/o-brand": "^4.0.0-beta.0",
+    "@financial-times/o-brand": "prerelease",
     "mathsass": "^0.11.0"
   },
   "volta": {
