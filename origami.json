@@ -1,13 +1,8 @@
 {
-	"supportStatus": "deprecated",
-	"origamiType": "component",
-	"description": "A component used to test origami tools and services",
-	"origamiVersion": "2.0",
-	"support": "origami.support@ft.com",
-	"supportContact": {
-		"email": "origami.support@ft.com",
-		"slack": "financialtimes/origami-support"
-	},
+	"origami": "2.0",
+	"status": "deprecated",
+	"type": "component",
+	"brands": [],
 	"demosDefaults": {
 		"js": "demos/src/demo.js"
 	},
