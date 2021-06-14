@@ -1,3 +1,7 @@
 @import "mathsass/dist/math";
 
 @import './src/scss/functions';
+
+.o-test-component {
+	content: 'CSS output by default 🙀';
+}
