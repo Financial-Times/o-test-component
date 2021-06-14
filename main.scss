@@ -1,16 +1,3 @@
 @import "mathsass/dist/math";
-@import "@financial-times/o-brand/main";
 
-@import './src/scss/brand';
 @import './src/scss/functions';
-
-/// Output all o-test-component styles.
-@mixin oTestComponent() {
-	.o-test-component {
-		padding: 0.5em 1em;
-		background-color: pink;
-		&:after {
-			content: _oTestComponentGet('content') + ' The square root of 64 is "#{oTestComponentSquareRoot(64)}".';
-		}
-	}
-}
