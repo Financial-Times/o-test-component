@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/o-test-component",
-  "version": "0.0.0",
+  "version": "2.2.9",
   "description": "A component used to test origami tools and services",
   "keywords": [],
   "homepage": "https://registry.origami.ft.com/components/o-test-component",
@@ -42,7 +42,6 @@
     "lodash-es": "^4.17.20"
   },
   "peerDependencies": {
-    "@financial-times/o-brand": "prerelease",
     "mathsass": "^0.11.0"
   },
   "volta": {
