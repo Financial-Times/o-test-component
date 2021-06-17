@@ -38,6 +38,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.2.18 | Yes    | No       | Yes      | Yes       | Yes        | Yes         | Yes           | Yes          | Yes            | Yes                | component  | CSS is output by the sass by default on import |
 |2.2.20 | Yes    | Yes      | Yes      | -         | Yes        | Yes         | Yes           | Yes          | Yes            | Yes                | library    | ✅ All correct. This library release has no "primary" `oTestComponent` Sass mixin. (2.2.19 is identical but specifies a "component" type in `origami.json`.) |
 |2.2.21 | Yes    | No       | Yes      | -         | Yes        | Yes         | Yes           | Yes          | Yes            | Yes                | library    | CSS is output by the sass by default on import |
+|2.2.22 | Yes    | -        | Yes      | -         | Yes        | Yes         | -             | Yes          | -              | Yes                | library    | Has no css and is a library not a component |
 
 _2.2.1 introduces a Sass linting error not present in 2.0.1 or 2.1.1. Otherwise 2.0.x and 2.1.x match the corresponding patch version in the table above, up to 2.2.16. However they have a number of additional failures related to changes made since v1 of the Origami specification._
 
