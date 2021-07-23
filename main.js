@@ -1,3 +1,5 @@
-import { hello } from './src/js/greet.js';
+import greet, { hello } from './src/js/greet.js';
 
 hello('World');
+
+export default greet;

@@ -41,6 +41,7 @@ To learn about getting started with other Origami components see the [Origami co
 |2.2.22 | Yes    | -        | Yes      | -         | Yes        | Yes         | -             | Yes          | -              | Yes                | library    | Has no css and is a library not a component |
 |2.2.23 | Yes    | -        | Yes      | -         | Yes        | Yes         | -             | Yes          | -              | Yes                | library    | Same as 2.2.22 |
 |3.0.0  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes          | Yes            | Yes                | component  | ✅ All correct.                                |
+|3.1.0  | Yes    | Yes      | Yes      | Yes       | Yes        | Yes         | Yes           | Yes          | Yes            | Yes                | component  | ✅ All correct and exports from main.js which is useful for testing the origami build service javascript bundler.                                |
 
 _2.2.1 introduces a Sass linting error not present in 2.0.1 or 2.1.1. Otherwise 2.0.x and 2.1.x match the corresponding patch version in the table above, up to 2.2.16. However they have a number of additional failures related to changes made since v1 of the Origami specification._
 
